@@ -22,9 +22,9 @@ return true}
 return false;
 }
 
-
-function findTheCheese (foods) {
-var foods = ["grapes", "gouda", "cameb"];
+ 
+function findTheCheese (foods) { // <-- [ "grapes", "gouda", "cheddar" ]
+var cheeses = ["cheeddar", "gouda", "camembert"];
 
 for (var i = 0; i < foods.length; i++) {
 
@@ -35,3 +35,12 @@ return foods[i];
 }
 return 'no cheese!';
 }}
+
+function wordsWithB (words) { // <- [ "eggs", "boat", "bannana", "oyster"] -> [ "boat", "bananna" ]
+var bwords = []
+for (let i = 0, i < words.length; i++) {
+if words[i]
+}
+bwords.push
+  
+}
