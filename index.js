@@ -42,4 +42,5 @@ function wordsWithB (words) { // <- [ "eggs", "boat", "bannana", "oyster"] -> [ 
     if (words[i].startsWith('b'))
       bwords.push(words[i])
   }
+  return bwords
 }
