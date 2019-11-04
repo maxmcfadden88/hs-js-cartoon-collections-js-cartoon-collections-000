@@ -39,7 +39,7 @@ return 'no cheese!';
 function wordsWithB (words) { // <- [ "eggs", "boat", "bannana", "oyster"] -> [ "boat", "bananna" ]
 var bwords = []
 for (let i = 0, i < words.length; i++) {
-if (words[i]){
+if (words[i].startsWith('b'))
   
 }
 }
