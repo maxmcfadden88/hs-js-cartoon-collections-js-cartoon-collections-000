@@ -24,9 +24,14 @@ return false;
 
 
 function findTheCheese (foods) {
+var cheeses = ["cheddar", "gouda", "camebert"];
+
 for (var i = 0; i < foods.length; i++) {
-if (foods[i] === 'cheddar')
+
+for (var c = 0; c < cheeses.length; c++) {
+
+if (cheeses[c] === foods[i])
 return foods[i];
 }
 return 'no cheese!';
-}
+}}
